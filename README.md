@@ -4,8 +4,6 @@ PLC-controlled parcel sorting simulation built with **CODESYS** and **Factory I/
 
 The system releases parcels one at a time from an infeed conveyor, classifies each parcel by height, and routes it to one of two chutes using pneumatic pushers.
 
-![Sorting station](media/sorting-station.png)
-
 ## Features
 
 - Single-piece parcel release from a feeder conveyor
@@ -27,21 +25,6 @@ The system releases parcels one at a time from an infeed conveyor, classifies ea
 - Modbus TCP/IP
 - CODESYS Control Win V3 x64
 
-## Process
-
-```mermaid
-flowchart LR
-    A[Feeder Conveyor] --> B[Entry Sensor]
-    B --> C[Main Conveyor]
-    C --> D[Low + High Sensors]
-    D -->|Large| E[Pusher 1]
-    D -->|Small| F[Sensor P2]
-    F --> G[Pusher 2]
-    E --> H[Large Parcel Chute]
-    G --> I[Small Parcel Chute]
-```
-
-The feeder and main conveyor run together until the parcel trailing edge clears the entry sensor. This prevents long parcels from slipping between the two conveyors.
 
 ### Classification
 
@@ -192,7 +175,6 @@ A good portfolio demo should show:
 5. A small parcel being routed by Pusher 2.
 6. CODESYS Online/Debug showing `State`, `BoxType`, sensors and outputs.
 
-Add `media/demo.gif` or `media/demo.mp4` before publishing the final repository.
 
 ## Notes
 
