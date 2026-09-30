@@ -1,4 +1,5 @@
 # Automated Parcel Sorting Line
+[Demo](<img width="911" height="81" alt="image" src="https://github.com/user-attachments/assets/f3d28368-82bb-4229-80dd-1dd0312c92af" />)
 
 PLC-controlled parcel sorting simulation built with **CODESYS** and **Factory I/O**, communicating over **Modbus TCP**.
 
