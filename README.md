@@ -1,5 +1,5 @@
 # Automated Parcel Sorting Line
-media/gif.gif
+
 PLC-controlled parcel sorting simulation built with **CODESYS** and **Factory I/O**, communicating over **Modbus TCP**.
 
 The system releases parcels one at a time from an infeed conveyor, classifies each parcel by height, and routes it to one of two chutes using pneumatic pushers.
