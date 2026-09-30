@@ -130,28 +130,7 @@ T_Pos2     := T#150MS;
 
 `T_Pos2` starts only after the trailing edge of the small parcel clears `SensorP2`, which makes the second sorting station work reliably with long parcels.
 
-## Repository Structure
 
-```text
-.
-├── README.md
-├── README_RU.md
-├── LICENSE
-├── .gitignore
-├── src/
-│   ├── GVL_FIO.st
-│   └── PLC_PRG.st
-├── docs/
-│   ├── IO_MAPPING.md
-│   ├── STATE_MACHINE.md
-│   ├── DEMO_CHECKLIST.md
-│   └── PORTFOLIO_TEXT.md
-├── media/
-│   ├── sorting-station.png
-│   └── README.md
-└── project/
-    └── README.md
-```
 
 ## Running the Project
 
